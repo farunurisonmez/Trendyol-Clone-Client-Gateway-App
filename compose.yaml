@@ -1,0 +1,6 @@
+﻿services:
+  gateway.api:
+    image: gateway.api
+    build:
+      context: .
+      dockerfile: Gateway.Api/Dockerfile
